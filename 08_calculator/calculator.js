@@ -27,9 +27,8 @@ const power = function(num1 = 0, num2 = 0) {
 };
 
 const factorial = function(num) {
-  const result = 1
-  if (num = 0) return 1;
-  total = result * factorial(num - 1)
+  if (num == 0) return 1;
+  return num * factorial(num - 1);
 };
 
 // Do not edit below this line
