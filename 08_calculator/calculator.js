@@ -23,7 +23,7 @@ const multiply = function(arr) {
 };
 
 const power = function(num1 = 0, num2 = 0) {
-	
+  return Math.pow(num1, num2);
 };
 
 const factorial = function(num) {
