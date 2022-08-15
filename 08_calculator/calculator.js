@@ -8,7 +8,7 @@ const subtract = function(num1 = 0, num2 = 0) {
 
 const sum = function(arr) {
   for (item of arr) {
-    return result += item
+    return result += item;
   }
 };
 
